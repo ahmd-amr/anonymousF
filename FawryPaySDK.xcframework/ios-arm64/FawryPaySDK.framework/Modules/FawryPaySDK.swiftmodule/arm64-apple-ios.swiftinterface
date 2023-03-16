@@ -648,6 +648,7 @@ public enum ServiceTypeCode : Swift.String {
   public var taxes: Swift.Double?
   public var branchServiceFees: Swift.Double?
   public var usedBTC: Swift.Int?
+  public var orderStatus: Swift.String?
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
